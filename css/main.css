@@ -946,6 +946,7 @@ header nav .form i {
     width: fit-content;
     margin: 10px auto;
     transition: 0.3s;
+    color: var(--main-color);
 }
 
 .pricing .pricing-container .plan .foot a:hover {
