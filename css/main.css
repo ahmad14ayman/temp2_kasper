@@ -256,6 +256,20 @@ header nav .form i {
 .landing i.right {
     right: 30px;
 }
+.landing i.up {
+    position: fixed;
+    right: 4%;
+    top: 94%;
+    width: 50px;
+    height: 50px;
+    background: rgba(0 0 0 / 70%);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
 
 .landing i:hover {
     color: var(--main-color);
@@ -1199,13 +1213,11 @@ footer .container p:first-of-type {
 footer .container .icons {
     margin: 20px 0;
 }
-
 footer .container .icons i {
     margin: 0 10px;
     font-size: 20px;
     transition: 0.3s;
 }
-
 footer .container .icons i:hover {
     color: var(--main-color);
 }
@@ -1219,7 +1231,6 @@ footer .container p:last-of-type span {
     color: var(--main-color);
     font-weight: bold;
 }
-
 /* ===============                  End footer   ==========================================*/
 /* ===============                  Start Advanced footer   ==========================================*/
 /* footer {
@@ -1286,4 +1297,4 @@ footer .container p:last-of-type span {
     }
     
 } */
-/* ===============                  End Advanced footer   ==========================================*/
+    /* ===============                  End Advanced footer   ==========================================*/
